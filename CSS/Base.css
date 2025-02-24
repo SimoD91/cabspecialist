@@ -1,0 +1,2412 @@
+﻿@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: URL('../Fonts/Ubuntu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-BoldItalic';
+  src: URL('../Fonts/Ubuntu-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Italic';
+  src: URL('../Fonts/Ubuntu-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Light';
+  src: URL('../Fonts/Ubuntu-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-LightItalic';
+  src: URL('../Fonts/Ubuntu-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: URL('../Fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-MediumItalic';
+  src: URL('../Fonts/Ubuntu-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: URL('../Fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+/*<----------------------------- INDEX.HTML ----------------------------------->*/
+/* Header */
+
+#HeaderContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.contHeader {
+    margin: 60px 120px;
+    margin-top: 40px;
+}
+
+.collapse {
+    background-color: white;
+}
+
+#HeaderContainer {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+}
+
+#navbar {
+    background-color: transparent !important;
+}
+
+.navbar-default {
+    background-color: white;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.nav li {
+    color:#002945;
+    font-size: 2.4rem;
+	padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Ubuntu-Light';
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav>li>a {
+   color:#002945;
+   padding-left: 0;
+   padding-right: 0;
+   display:inline;
+}
+
+.navbar-nav>li>a:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:#18A2C1;
+}
+
+.navbar-nav>li>a:hover {
+    background-color: transparent !important;
+    color:#18A2C1;
+}
+
+.navbar-right {
+    padding-top: 40px;
+}
+
+li.numberDiv {
+    margin-top: 15px;
+    padding-top: 11px;
+    color: white;
+    font-family: 'Ubuntu-Bold';
+}
+
+.numberDiv {
+    background-color:#18A2C1;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    width: 270px;
+    height: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition:ease 0.3s;
+}
+
+li.numberDiv a {
+    color: white;
+}
+
+li.numberDiv a:hover {
+    background-color: transparent !important;
+    color: white;
+}
+
+li.numberDiv a:focus {
+    background-color: transparent !important;
+    color: white;
+}
+
+svg {
+    max-width: 9%;
+    padding-bottom: 0;
+}
+
+.navlink {
+    font-size: 1.8rem;
+    padding-top: 4px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Main Hero */
+
+.contVideo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 270px;
+}
+
+/* Main Sezione Superiore */
+
+.contSection1 {
+    position: relative;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    z-index: 2;
+    background-color: white;
+    padding-bottom: 160px;
+}
+
+.titleSection1 h2 {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 120px;
+    font-size: 5.8rem;
+    color:#002945;
+    font-family: 'Ubuntu-Light';
+}
+
+.textLightBlue {
+    color: #18A2C1;
+    font-weight: bold;
+    font-family: 'Ubuntu-Bold';
+}
+
+.iconaTop {
+    width: 200px;
+}
+
+.borderBox {
+    border-bottom: 3px solid #002945;
+    width: 135px;
+    height: 70px;
+    float: right;
+}
+
+.noBorderBox {
+    width: 100px;
+    height: 70px;
+}
+
+.downTitleSection1 {
+    position: relative;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    z-index: 2;
+}
+
+.downTitleSection1 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0;
+    font-size: 5.8rem;
+    color:#002945;
+    font-family: 'Ubuntu-Light';
+
+}
+
+.sectionNumb {
+    font-size: 8rem;
+    color: #18a2c1;
+    font-weight: bold;
+    padding-right: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu-Bold';
+}
+
+.textBlue {
+    color: #002945;
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 240px;
+    text-align: start;
+    font-family: 'Ubuntu-Bold';
+}
+
+.sectionNumb, .textBlue {
+    padding-left: 8px;
+   }
+
+.rowTopIcons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Sezione Inferiore */
+
+.contSection2 {
+    position: relative;
+    background-color: #18A2C1;
+    margin-top: -120px;
+    padding-bottom: 300px;
+    z-index: 1;
+}
+
+.titleSection2 {
+    background-color: #18A2C1;
+    margin-top: -300px;
+}
+
+.titleSection2 h2 {
+    text-align: center;
+    padding-top: 350px;
+    font-size: 5.5rem;
+    padding-bottom: 180px;
+    color: white;
+    margin-top: 110px;
+    font-family: 'Ubuntu-Bold';
+}
+
+.contSection3 {
+    position: relative;
+    background-color: #18A2C1;
+    color: white;
+    display: flex;
+    margin: auto;
+    margin-top: -150px;
+    padding-bottom: 250px;
+    font-family: 'Ubuntu-Light';
+}
+
+.rowLowIcon {
+    justify-content: center;
+}
+
+.iconaLow {
+    width: 25%;
+    padding-bottom: 40px;
+}
+
+.iconaFast {
+    width: 17%;
+    padding-bottom: 40px;
+}
+
+.sectionLow, .textLow {
+    font-size: 5rem;
+}
+
+.sectionLow {
+    padding-bottom: 20px;
+}
+
+.textLow, .contactUs {
+    line-height: 1.3;
+    font-size: 3.8rem;
+}
+
+.contactUs {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Ubuntu-Bold';
+}
+
+.workWithUs {
+    font-family: 'Ubuntu-Bold';
+    color: white;
+}
+
+.fastService {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fastServiceTxt {
+    font-family: 'Ubuntu-Bold';
+    color: white;
+    font-size: 7rem;
+    padding-left: 30px;
+}
+
+/* Footer */
+
+footer {
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    position: relative;
+    z-index: 3;
+    margin-top: -120px;
+    background-color: white;
+}
+
+.contFooter {
+    text-align: center;
+    width: 100%;
+}
+
+.footerLogo {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    padding-right: 160px;
+}
+
+.imgLogoFooter {
+    max-width: 30%;
+}
+
+.leftSideFooter {
+    margin-left: 100px;
+}
+
+.list-unstyled {
+    text-align: start;
+    font-size: 2.4rem;
+    padding-top: 50px;
+    color:#002945;
+    font-family: 'Ubuntu-Regular';
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color:#002945;
+}
+
+.list-unstyled a:hover {
+    color:#18A2C1;
+}
+
+
+footer svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.rightSideFooter p, .leftSideFooter p {
+    padding-top: 5px;
+}
+
+.lastp {
+    font-size: 2.1rem;
+}
+
+/* Media Queries per Responsive */
+@media screen and (max-width: 1972px) {
+    .navbar-right {
+        padding-top: 30px;
+    }
+
+    #HeaderContainer {
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        padding-top: 0;
+        width: 50%;
+    }
+
+    .nav li {
+        padding-top: 0;
+        padding-right: 50px;
+        font-size: 2rem;
+    }
+
+    .numberDiv {
+        margin-top: -10px !important;
+        padding-top: 3px !important;
+    }
+
+    .contVideo {
+        margin-top: 150px;
+    }
+
+    .contSection1 {
+        padding-bottom: 100px;
+    }
+
+    .contSection3 {
+        padding-bottom: 190px;
+    }
+
+    .rowTopIcons {
+        padding-right: 50px;
+    }
+
+    .titleSection1 h2 {
+        font-size: 4.5rem;
+        padding-top: 50px;
+    }
+
+    .topTitleSection1 h2 {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+        padding-bottom: 80px !important;
+    }
+
+    .textBlue {
+        font-size: 3rem;
+    }
+
+    .titleSection2 h2 {
+        font-size: 4rem;
+        padding-top: 300px;
+    }
+
+    .sectionLow, .textLow, .contactUs {
+        font-size: 3.5rem;
+    }
+
+    .iconaLow {
+        width: 20%;
+    }
+
+    .fastServiceTxt {
+        font-size: 5rem;
+    }
+
+    .footerLogo {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .imgLogoFooter {
+        max-width: 32%;
+    }
+
+    .list-unstyled {
+        font-size: 2rem;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .lastp {
+        margin-bottom: 20px;
+        font-size: 1.9rem;
+    }
+
+    .footerLogo {
+        padding-top: 45px;
+    }
+
+    .textBlueN1 {
+        padding-left: 15px;
+    }
+
+    .leftSideFooter {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1932px) {
+    .navbar-right {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .listRight {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1730px) {
+    .logo {
+        max-width: 35%;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 1630px) {
+    .logo {
+        max-width: 25%;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    #HeaderContainer {
+        padding-top: 0;
+    }
+
+    .navbar {
+        height: 0;
+    }
+
+   .navbar-right {
+    margin-top: 10px;
+    padding-top: 12px;
+   }
+
+    .navbar-nav {
+        padding-top: 12px;
+    }
+
+    li.numberDiv {
+        padding-top: 5px !important;
+        margin-left: 10px;
+    }
+
+    .nav li {
+        color: #002945;
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav>li {
+        padding-top: 10px;
+    }
+
+    .numberDiv {
+        color: white !important;
+        margin-top: 0 !important;
+        font-size: 2rem !important;
+        width: 175px;
+        height: 40px;
+    }
+
+    .contVideo {
+        max-width: 100%;
+        margin-top: 70px;
+    }
+
+    .contSection1 {
+        padding-bottom: 80px;
+    }
+
+    .borderBox {
+        height: 65px;
+    }
+
+    .rowTopIcons {
+        padding-right: 0;
+    }
+
+    .titleSection1 h2 {
+        font-size: 4.2rem;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 50px;
+    }
+
+    .iconDiv {
+        padding: 0;
+    }
+
+    .iconaTop {
+        width: 80%;
+    }
+
+    .borderDiv {
+        display: flex;
+        justify-content: center;
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+
+    .borderBox {
+        height: 50px;
+    }
+
+    .textBlue {
+        font-size: 2.9rem;
+        width: 98%;
+    }
+
+    .titleSection2 h2 {
+        font-size: 4.2rem;
+        padding-top: 280px;
+    }
+
+    .contSection3 {
+        padding-bottom: 180px;
+    }
+
+    .iconaLow {
+        width: 18%;
+    }
+
+    .sectionLow {
+        font-size: 3.8rem;
+    }
+
+    .textLow {
+        font-size: 2.8rem;
+    }
+
+    .iconaFast {
+        width: 12%;
+    }
+
+    .fastServiceTxt {
+        font-size: 5rem;
+        padding-bottom: 15px;
+    }
+
+    .leftSideFooter, .rightSideFooter {
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .leftSideFooter {
+        padding-left: 45px;
+    }
+
+    .rightSideFooter {
+        margin-left: 170px;
+    }
+
+    .list-unstyled {
+        font-size: 1.8rem;
+        padding-top: 10px;
+    }
+
+    .imgLogoFooter {
+        max-width: 50%;
+    }
+
+    .listRight {
+        padding-top: 30px;
+    }
+
+    .lastp {
+        font-size: 1.8rem;
+    }
+
+    .footerLogo {
+        padding-right: 80px;
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .navbar-right {
+        margin-top: -40px;
+    }
+
+    .textBlue {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .footerLogo {
+        padding-right: 0;
+        max-width: 95%;
+        text-align: end;
+        padding-top: 26px;
+    }
+
+    .rightSideFooter {
+        margin-left: 10px;
+    }
+
+    .leftSideFooter {
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1199.5px) {
+    .footerLogo {
+        text-align: center;
+        padding-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .imgLogoFooter {
+        max-width: 20%;
+    }   
+
+    .rightSideFooter, .leftSideFooter {
+        width: 100%;
+    }
+
+    .leftSideFooter {
+        padding-left: 15px;
+    }
+
+    .rightSideFooter {
+        margin-left: 0;
+    }
+
+    .list-unstyled {
+        text-align: center;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+#HeaderContainer {
+    padding-left: 0;
+    padding-right: 10px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+     #HeaderContainer {
+         padding-left: 0;
+         padding-right: 10px;
+    }
+
+    .contHeader {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 15px;
+        padding-left: 0;
+    }
+
+    li.numberDiv {
+        padding-top: 5px !important;
+        height: 40px;
+        font-size: 1.7rem !important;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .nav-link {
+        font-size: 1.4rem;
+    }
+
+    .number {
+        padding-bottom: 5px;
+        font-size: 1rem;
+    }
+
+    .numberDiv {
+        height: 45px;
+    }
+
+    svg {
+        padding-top: 5px;
+    }
+
+    li.nav-item.navLink3 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .contVideo {
+        max-width: 100%;
+    }
+
+    .contSection1 {
+        padding-bottom: 0;
+    }
+
+    .contSection2 {
+        padding-bottom: 200px;
+    }
+
+    .titleSection1 h2 {
+        padding-top: 10px;
+        padding-bottom: 100px;
+        font-size: 5rem;
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+
+    .contResponsive {
+        display: flex;
+        align-items: center;
+    }
+
+    .rowIcons, .rowNumb, .rowText {
+        flex-direction: column;
+    }
+
+    .rowIcons {
+        align-content: space-around;
+    }
+
+    .rowNumb {
+        align-content: center;
+        padding-top: 13px;
+    }
+
+    .rowText {
+        padding-top: 170px;
+    }
+
+    .textBlue {
+        text-align: center;
+        width: auto;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+
+    .textBlue1 {
+        padding-left: 0;
+        padding-bottom: 180px;
+        margin-top: -180px;
+    }
+
+    .textBlue2 {
+        padding-left: 0;
+        margin-top: -70px;
+        padding-bottom: 290px;
+    }
+
+    .textBlue3 {
+        padding-left: 0;
+        margin-top: -160px;
+    }
+
+    .iconaTop {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 35%;
+    }
+
+    .rowTopIcons {
+        display:flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .borderBox, .noBorderBox {
+        display: none;
+    }
+
+    .sectionNumb {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .titleSection2 h2 {
+        padding-top: 300px;
+        padding-bottom: 170px;
+    }
+
+    .sectionLow, .textLow {
+        font-size: 3rem;
+    }
+
+    .contactUs {
+        font-size: 2.9rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .navbar-nav {
+        margin-left: 260px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-top: 3px;
+    }
+
+    li.numberDiv a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .nav li {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    #HeaderContainer {
+         padding-right: 0;
+         background-color: white !important;
+         border-bottom: 1px solid #d3d3d3ab;
+         padding-bottom: 10px;
+    }
+
+    header {
+        margin-top: 0 !important;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-default {
+        display:flex !important;
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-right: 45px;
+    }
+
+    .navbar-collapse {
+        padding-left: 0;
+    }
+
+    .navbar-collapse.in {
+        overflow: initial !important;
+        display: flex !important;
+    }
+
+        .navbar-toggle {
+        display: block;
+        background-color:#18A2C1;
+        margin-top: 21px;
+        margin-right: 15px;
+    }
+
+    .container-fluid {
+        padding-right: 0;
+    }
+
+    .navbar-brand {
+        max-width: 500px;
+        padding: 0;
+    }
+
+    .linkContact a {
+        padding-right: 10px !important;
+    }
+
+    .logo {
+        width: 50%;
+        margin-left: 15px;
+        padding-top: 18px;
+    }
+
+    li.navlink {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    li.numberDiv {
+        font-size: 1.5rem !important;
+        width: 145px;
+        padding-left: 0;
+        padding-right: 6px;
+        font-weight: bold;
+        margin-left: 20px;
+        display: none !important;
+    }
+
+    .navbar-default {
+        margin: 0 20px;
+    }
+
+    .number {
+        font-size: 1.1rem;
+    }
+
+    .contVideo {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .text-block2 h1 {
+        right: 0;
+        font-size: 2rem;
+        width: 150px;
+        bottom: 200px;
+    }
+
+    .titleSection1 h2 {
+        padding-top: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .downTitleSection1 h2 {
+        padding-top: 0;
+    }
+
+    .titleSection2 h2 {
+        font-size: 4.5rem;
+        padding-bottom: 135px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .contSection1 {
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+
+    .containerLine {
+        margin-left: 0;
+        padding-left: 30px;
+    }
+
+    .contSection3 {
+        border-top-right-radius: 60px;
+        border-top-left-radius: 60px;
+    }
+
+    .rowLowIcon {
+        padding-top: 70px;
+    }
+
+    .iconaLow {
+        padding-bottom: 65px;
+        width: 35%;
+    }
+
+    footer {
+        border-top-right-radius: 60px;
+        border-top-left-radius: 60px;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    .linkContact {
+        margin-bottom: 0;
+    }
+
+    .icon-bar{
+        background-color: white;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color:#18A2C1;
+    }
+
+    .link-body-emphasis {
+        margin-bottom: 0 !important;
+    }
+
+    .navbar-right {
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 25px;
+    }
+
+    .numberDiv {
+        width: 200px !important;
+    }
+
+    .navbar-nav>li>a {
+        top: -2px;
+    }
+
+     svg {
+        padding-top: 7px;
+        margin-bottom: -3px;
+    }
+
+    .imgLogoFooter {
+        max-width: 30%;
+    }
+
+    .fastServiceTxt {
+        font-size: 4rem;
+    }
+
+    .navbar-nav {
+        display: flex !important;
+        margin-left: -515px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #HeaderContainer {
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+
+    button {
+        margin-right: 40px;
+        margin-top: 15px;
+    }
+
+    .nav-pills {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 150px;
+    }
+
+    .numberDiv {
+        width: 150px;
+        margin: auto;
+    }
+
+    .logo {
+        max-width: 100%;
+        padding-top: 10px;
+    }
+
+    .navbar-brand {
+        max-width: 300px;
+    }
+
+    .navbar-nav {
+        margin-left: -315px;
+    }
+
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 518.5px) {
+    .nav li {
+        font-size: 1rem;
+        padding-left: 6px;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 0;
+    }
+}
+
+@media screen and (max-width: 474.5px) {
+    .fastServiceTxt {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .navbar-right {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #HeaderContainer {
+        padding-top: 0;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+    }
+    
+    .navbar-collapse {
+        border: none !important;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .navbar-nav>li>a {
+        top: -4px;
+    }
+
+    li.nav-link {
+        padding-left: 0;
+    }
+
+    .nav li {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 65%;
+        padding-top: 10px;
+    }
+
+    .navbar-toggle {
+        background-color:#18A2C1;
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+
+    .navbar-right {
+        margin-top: 30px;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+        padding-left: 13px;
+    }
+
+    .icon-bar{
+        background-color: white;
+    }
+
+    .contVideo {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    li.numberDiv {
+        width: 100%;
+        padding-left: 200px;
+    }
+
+    .numberDiv svg {
+        width: 20px;
+        padding-top: 8px;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color:#18A2C1;
+    }
+
+    .link-body-emphasis {
+        margin-bottom: 0 !important;
+    }
+
+    .contHero {
+        margin-top: 0;
+    }
+
+    .text-block2 h1 {
+        display: none;
+    }
+
+    #ghostContainer {
+        display: none;
+    }
+
+    .contSection1, .contSection2 {
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .contSection3 {
+        margin-top: -100px;
+    }
+
+    .titleSection1 h2 {
+        font-size: 4.5rem;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+
+    .downTitleSection1 h2 {
+        font-size: 3.9rem;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 90px;
+    }
+
+    .textBlue {
+        padding-bottom: 70px;
+    }
+
+    .rowIcons {
+        align-content:flex-start;
+        padding-left: 85px;
+    }
+
+    .titleSection2 h2 {
+        font-size: 4.5rem;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 285px;
+        padding-bottom: 130px;
+    }
+
+    .containerLineBig {
+        width: 100%;
+        padding-right: 25px;
+    }
+
+    .iconaTop {
+        width: 70%;
+    }
+
+    .iconaMid {
+        width: 70%;
+    }
+
+    .sectionLow {
+        margin-bottom: 30px;
+    }
+
+    .iconaLow {
+        width: 50%;
+        margin-top: -50px;
+    }
+
+    .fastService {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fastServiceTxt {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .iconaFast {
+        width: 40%;
+        padding-top: 20px;
+    }
+
+    .imgLogoFooter {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 436px) {
+.nav li {
+    font-size: 12px;
+}
+
+.navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+    overflow-y: auto !important;
+}
+}
+
+@media screen and (max-width: 425.9px) {
+    .titleSection1 h2 {
+        font-size: 2.2rem;
+        padding-bottom: 30px !important;
+    }
+
+    .iconaTop {
+        width: 40%;
+    }
+
+    .sectionNumb {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+        margin-top: -20px;
+        padding-bottom: 0;
+        font-size: 6rem;
+    }
+
+    .textBlue {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+
+    .titleSection2 h2 {
+        font-size: 25px;
+        padding-top: 225px;
+        width: 100%;
+    }
+
+    .iconaLow {
+        width: 30%;
+        padding-bottom: 33px;
+    }
+
+    .rowLowIcon {
+        padding-top: 40px;
+    }
+
+    .sectionLow, .textLow {
+        font-size: 2rem;
+    }
+
+    .sectionLow {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .contactUs {
+        font-size: 2rem;
+    }
+
+    .fastService {
+        padding-top: 5px;
+    }
+
+    .iconaFast {
+        width: 30%;
+        padding-bottom: 10px;
+    }
+
+    .fastServiceTxt {
+        font-size: 25px;
+    }
+
+    .contSection3 {
+        padding-bottom: 140px;
+    }
+
+    .list-unstyled {
+        font-size: 1.3rem;
+    }
+
+    .imgLogoFooter {
+        max-width: 40%;
+    }
+
+    .footerLogo {
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-collapse {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 375.5px) {
+    .logo {
+        max-width: 100%;
+        padding-top: 10px;
+    }
+
+    .navbar-right {
+        margin-top: 15px;
+    }
+
+    .navbar-brand {
+        max-width: 230px;
+    }
+
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+
+    .sectionLow br {
+        display: none;
+    }
+
+    footer {
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+
+    .titleSection1 h2 {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    button {
+        margin-right: 35px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+   .navbar-collapse {
+        border: none !important;
+    }
+
+    .navbar-right {
+        padding-left: 10px;
+    }
+
+    .titleSection1 h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .titleSection2 h2 {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 25px;
+    }
+}
+
+/*<--------------------------------- CARROZZERIA.HTML -------------------------------->*/
+
+/* Main Hero */
+
+.titleSectionCarrozzeria {
+    margin-top: 100px;
+}
+
+.titleSectionCarrozzeria h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size: 5.8rem;
+    color: #002945;
+    font-family: 'Ubuntu-Light';
+}
+
+.contHero {
+    background-image: url('../Images/hero.jpg');
+    max-width: 100%;
+    height: 932px;
+    background-size: cover;
+    border-radius: 125px;
+    background-position: center center;
+    margin-top: 210px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.heroImg {
+    max-width: 100%;
+}
+
+.text-block2 h1 {
+    position: relative;
+    padding-top: 250px;
+    padding-right: 300px;
+    font-size: 10rem;
+    font-family: 'Ubuntu-Bold';
+    line-height: 1.0;
+    text-align: end;
+    color: white;
+}
+
+/* Main Sezione Centrale */
+
+.contSectionCarrozzeria {
+    position: relative;
+    background-color: white;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    z-index: 2;
+}
+
+.textDarkBlue {
+    color: #002945;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 270px;
+    text-align: start;
+    padding-left: 65px;
+    padding-top: 15px;
+    font-family: 'Ubuntu-Bold';
+}
+
+.textDarkBlue1 {
+    color: #002945;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 270px;
+    text-align: start;
+    padding-left: 110px;
+}
+
+.textDarkBlue2 {
+    color: #002945;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 340px;
+    text-align: start;
+    padding-left: 120px;
+}
+
+.textDarkBlue3 {
+    padding-left: 120px;
+}
+
+.rowMidIcons {
+    display: flex;
+    justify-content: center;
+    gap: 0 100px;
+    padding-bottom: 180px;
+}
+
+.callIconMid {
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.iconaMid {
+    width: 50%;
+    margin-bottom: 150px;
+}
+
+.iconaMid4 {
+    width: 61%;
+}
+
+.sectionNumbMid {
+    font-size: 8rem;
+    color: #18a2c1;
+    font-weight: bold;
+}
+
+.sectionNumbMid1 {
+    margin-top: -17px;
+}
+
+
+.sectionNumbMid2 {
+    margin-top: -20px;
+}
+
+.sectionNumbMid3 {
+    margin-top: -20px;
+}
+
+.sectionNumbMid4 {
+    margin-top: -50px;
+}
+
+/* Linea Con Punti in Main Sezione Centrale */
+
+.containerLineBig {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.containerLine { 
+    position: relative; 
+    display: flex; 
+    justify-content: center;
+    gap: 0 370px;
+    width: 2300px;
+}
+ 
+.box { 
+    border-radius: 100%;
+    background-color: #002945; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    top: -65px;
+    left: 105px;
+} 
+
+.box2 {
+    top: -65px;
+    left: 115px;
+}
+
+.box3 {
+    top: -66px;
+    left: 117px;
+}
+
+.box4 {
+    top: -95px;
+}
+ 
+.line { 
+    position: absolute; 
+    top: 45%; 
+    left: 13%; 
+    right: 0; 
+    height: 3px; 
+    width: 740px;
+    background-color: #002945;
+} 
+ 
+#line1 { 
+    left: 50%; 
+    transform: translateX(-50%); 
+    height: 2px; 
+}
+
+/* Main Sezione Inferiore */
+
+.contSectionCarrozzeria2 {
+    position: relative;
+    background-color: #18A2C1;
+    color: white;
+    display: flex;
+    margin: auto;
+    margin-top: -50px;
+    padding-bottom: 250px;
+    font-family: 'Ubuntu-Light';
+}
+
+.titleSectionCarrozzeria2 {
+    background-color: #18A2C1;
+    margin-top: -300px;
+}
+
+.titleSectionCarrozzeria2 h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    color: white;
+    margin-top: 110px;
+    margin-bottom: 0;
+    font-family: 'Ubuntu-Bold';
+    padding-top: 340px;
+    padding-bottom: 100px;
+}
+
+/* Media Queries per Responsive */
+
+@media screen and (max-width: 1972px) {
+    .contHero {
+        height: 800px;
+        margin-top: 145px;
+    }
+
+    .titleSectionCarrozzeria {
+        margin-top: 70px;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        font-size: 4.5rem;
+        padding-top: 0;
+    }
+
+    .text-block2 h1 {
+        padding-top: 180px;
+        padding-right: 90px;
+        font-size: 9rem;
+    }
+
+    .line {
+        width: 600px;
+    }
+
+    .box {
+        top: -72px;
+    }
+
+    .box4 {
+        left: 115px;
+        top: -103px;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        font-size: 4rem;
+    }
+
+    .textDarkBlue, .textDarkBlue2, .textDarkBlue3 {
+        font-size: 3rem;
+    }
+
+    .rowMidIcons {
+        padding-bottom: 100px;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        padding-top: 280px;
+    }
+
+    .contSectionCarrozzeria2 {
+        padding-bottom: 190px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .contSectionCarrozzeria {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .contHero {
+        margin-top: 92px;
+        height: 600px;
+    }
+
+    .rowMidIcons {
+        gap: 0 80px;
+    }
+
+    .iconaMid4 {
+        width: 50%;
+    }
+
+    .sectionNumbMid1, .sectionNumbMid2, .sectionNumbMid3, .sectionNumbMid4 {
+        padding-left: 15px;
+    }
+
+    .sectionNumbMid4 {
+        margin-top: -17px;
+    }
+
+    .text-block2 h1 {
+        font-size: 7rem;
+        padding-top: 150px;
+    }
+
+    .box4 {
+        top: -72px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .contHero {
+        border-top-right-radius: 60px;
+        border-top-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .text-block2 h1 {
+        font-size: 6rem;
+    }
+
+    .contSectionCarrozzeria {
+        padding-bottom: 80px;
+    }
+
+    .borderBox {
+        height: 65px;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        font-size: 4.2rem;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+     .rowMidIcons {
+        gap: 0 50px;
+        padding-bottom: 30px;
+    }
+
+    .contSectionCarrozzeria>.container {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .containerLineBig {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: transparent;
+        width: 700px;
+    }
+
+    .containerLine { 
+        position: relative; 
+        display: flex; 
+        justify-content: center;
+        gap: 0 235px;
+        margin-left: 320px;
+        padding-right: 0;
+        padding-left: 90px;
+    }
+
+    .iconaMid {
+        width: 70%;
+    }
+
+    .iconaMid4 {
+        width: 70%;
+    }
+
+    .line { 
+        background-color: #002945; 
+        z-index: 0;
+        margin-left: -120px;
+        top: 190px;
+    }
+
+    .box {
+        width: 30px;
+        height: 30px;
+    }
+
+    .box1 {
+        left: 65px;
+        top: -96px;
+    }
+
+    .box2 {
+        left: 75px;
+        top: -103px;
+    }
+
+    .box3 {
+        left: 75px;
+        top: -103px;
+    }
+
+    .box4 {
+        left: 78px;
+        top: -103px;
+    }
+
+    .sectionNumbMid1 {
+        margin-top: -40px;
+        padding-left: 0;
+    }
+
+    .sectionNumbMid2 {
+        margin-top: -45px;
+        padding-left: 0;
+    }
+
+    .sectionNumbMid3 {
+        margin-top: -45px;
+        padding-left: 0;
+    }
+
+    .sectionNumbMid4 {
+        margin-top: -40px;
+        padding-left: 0;
+    }
+
+    .textDarkBlue {
+        font-size: 3rem;
+        padding-left: 75px;
+        text-align: start;
+        width: 230px;
+    }
+
+    .textDarkBlue1 {
+        margin-left: -35px;
+        padding-left: 100px;
+    }
+
+    .textDarkBlue2 {
+        margin-left: -20px;
+        padding-left: 92px;
+        width: 270px;
+    }
+
+    .contSectionCarrozzeria2 {
+        padding-bottom: 170px;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        font-size: 4.2rem;
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1199.5px) {
+    .containerLine {
+        margin-left: 120px;
+    }
+
+    .rowMidIcons {
+        gap: 0 0px;
+    }
+
+    .box1 {
+        left: 85px;
+        top: -120px;
+    }
+
+    .box2 {
+        left: 110px;
+        top: -138px;
+    }
+
+    .box3 {
+        left: 100px;
+        top: -133px;
+    }
+
+    .box4 {
+        left: 100px;
+        top: -133px;
+    }
+
+    .iconaMid2 {
+        width: 65%;
+    }
+
+    .sectionNumbMid2 {
+        margin-top: -55px;
+    }
+
+    .sectionNumbMid3 {
+        margin-top: -51px;
+    }
+
+    .sectionNumbMid4 {
+        margin-top: -50px;
+    }
+
+    .textDarkBlue {
+        font-size: 2rem;
+    }
+
+    .textDarkBlue1 {
+        padding-left: 100px;
+    }
+
+    .textDarkBlue2 {
+        padding-left: 90px;
+    }
+
+    .textDarkBlue3 {
+        padding-left: 60px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .contHero {
+        height: 400px;
+    }
+
+    .text-block2 h1 {
+        font-size: 4rem;
+        padding-right: 100px;
+        padding-top: 100px;
+    }
+
+    .titleSectionCarrozzeria {
+        margin-top: 40px;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        font-size: 4rem;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .contSectionCarrozzeria>.container {
+        margin-top: -40px;
+    }
+
+    .textDarkBlue {
+        text-align: center;
+        width: auto;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+
+    .textDarkBlue1, .textDarkBlue2 {
+        padding-left: 0;
+        padding-bottom: 40px;
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    .textDarkBlue3 {
+        padding-left: 0;
+        padding-bottom: 60px;
+        margin-left: 0;
+        padding-top: 0;
+    }
+	
+	.box, .line {
+        display: none;
+    }
+
+    .callIconMid {
+        padding-right: 15px;
+    }
+
+    .sectionNumbMid, .sectionNumbMid1 {
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    .sectionNumbMid2, .sectionNumbMid3 {
+        padding-top: 20px;
+    }
+
+    .sectionNumbMid4 {
+        padding-top: 25px;
+    }
+
+    .rowMidIcons {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .iconaMid {
+        width: 25%;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    .contColumn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerLine {
+        display: block;
+        margin-left: 0;
+        padding-left: 55px;
+    }
+
+    .contSectionCarrozzeria {
+        padding-bottom: 0;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        padding-top: 260px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .contHero {
+        border-top-right-radius: 60px;
+        border-top-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        margin-top: 95px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+	
+	 .text-block2 h1 {
+        right: 30px;
+        font-size: 4rem;
+        width: 100%;
+        padding-right: 0;
+    }
+	
+	.containerLine {
+        margin-left: 0;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        font-size: 5rem;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contSectionCarrozzeria {
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .contHero {
+        margin-top: 70px;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: initial;
+    }
+
+    .text-block2 h1 {
+        padding-top: 300px;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .text-block2 h1 {
+        padding-top: 330px;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .text-block2 h1 {
+        font-size: 2rem;
+        padding-top: 350px;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .contHero {
+        height: 500px;
+        background-image: url('../Images/hero_cut.jpg');
+        border-radius: 30px;
+        margin-top: 75px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .text-block2 {
+        display: none;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .contSectionCarrozzeria {
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 425.9px) {
+    .titleSectionCarrozzeria2 h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+        padding-top: 220px;
+    }
+
+    .textDarkBlue3, .textDarkBlue {
+        padding-bottom: 30px;
+    }
+
+    .contSectionCarrozzeria2 {
+        padding-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 375.5px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .contHero {
+        margin-top: 68px;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .textDarkBlue2 {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .titleSectionCarrozzeria h2 {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 2.9rem;
+    }
+
+    .titleSectionCarrozzeria2 h2 {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 25px;
+    }
+}
+
+/*<--------------------------- PRIVACY.HTML ------------------------------->*/
+.bodyPrivacy {
+    width: 100%;
+    color:#002945;
+    font-family: 'Ubuntu-Regular';
+    font-size: 1.6rem;
+    position:relative;
+    z-index: 5;
+}
+
+.bodyPrivacy .container {
+    width: 80% !important;
+}
+
+.bodyPrivacy h5, .bodyPrivacy h4, .bodyPrivacy h6, .bodyPrivacy h3 {
+   font-family: 'Ubuntu-Bold';
+}
+
+.col1 {
+    margin-top: 194px;
+}
+
+.col2 {
+    margin-top: 190px;
+}
+
+.divBottomPrivacy {
+    border-bottom: 1px solid #d3d3d378;
+    position:relative;
+    z-index: 5;
+}
+
+@media screen and (max-width: 1570px) {
+    .col1, .col2 {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col2 {
+        margin-top: 15px;
+    }
+
+    .divBottomPrivacy {
+        border-bottom: none;
+        border-top: 1px solid lightgrey;
+    }
+
+    .bodyPrivacy {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425.5px) {
+    .col1 {
+        margin-top: 90px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 11px;
+
+    }
+}

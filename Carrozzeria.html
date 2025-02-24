@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="CabSpecialist - Servizi di carrozzeria a distanza" />
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap-toggle.min.css" rel="stylesheet" />
+    <link href="CSS/Base.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/GestioneMasterPage.js"></script>
+    <title>CabSpecialist - Carrozzeria</title>
+    <link rel="icon" type="image/x-icon" href="./Images/icona_index2.png">
+    <script>
+        var _cookieConsent = {
+            resources: [
+                //personalizzazioni tasti cookies
+                { category: 'necessary', type: 'script' },
+                { category: 'statistics', type: 'script' },
+                { category: 'preferences', type: 'script' },
+                { category: 'marketing', type: 'iframe' },
+            ],
+
+            privacyPolicyUrl: 'Privacy.html', //link testuale
+
+            theme: {
+                //personalizzazione finestra, stile
+                borderSize: 1,
+                spacing: 10,
+                radius: 20,
+                bannerWidth: 230,
+                fontSize: 14,
+                lineHeight: 20,
+                headerFontSize: 22,
+                headerLineHeight: 28,
+                colors: [
+                 '#FFF', // Colore di sfondo
+                 '#002945', // Colore testo
+                 '#002945', // Colore link testuale e pulsanti accetta tutto/salva-Colore enabled pulsantini cookies e pallino not enabled
+                 '#FFF', // Colore testo pulsanti accetta tutto/salva
+                 'rgb(24 162 193 / 59%)', // Colore hover pulsanti accetta tutto/salva-Colore hover enabled pulsantini cookies
+                 '#FFF', // Colore pallino tasto necessary
+                 'lightgrey', // Colore sfondo pulsantini cookies not enabled/Bordi
+                 'rgb(24 162 193 / 59%)', // Colore hover pulsantini cookies not enabled
+                 '#FFF', // Colore pallino pulsantini cookies enabled
+                ],
+            },
+
+            translations: {
+                //gestione cambio lingua
+                'message': {
+                    bannerTitle: 'Questo sito utilizza i cookies',
+                    bannerDescription: 'Usiamo i cookies per migliorare la tua esperienza di navigazione. Scegli quali tipologie di cookies ci permetti di utilizzare.',
+                    bannerOpenPrivacyPolicy: 'Vai alla policy',
+                    save: 'Salva',
+                    acceptAll: 'Accetta Tutto',
+                    necessary: 'Necessari',
+                    marketing: 'Marketing',
+                    preferences: 'Preferenze',
+                    statistics: 'Statistici',
+                    unclassified: 'Non classificati'
+                },
+            },
+        };
+    </script>
+    <script src="Scripts/cookieconsent.js"></script>
+    <script>
+    $(document).ready(function () {
+    CaricaMasterPage();
+    });
+    </script>
+</head>
+<body>
+
+<!-- Header -->
+    <div id="HeaderContainer"></div>
+
+<!-- Main Hero -->
+    <div class="container" style="width:100%; padding:0">
+        <div class="contHero" style="width:100%;">
+            <div class="text-block2">
+                <h1>Ripara<br />la cabina<br />senza andare<br />dal carrozziere</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- Main Sezione Centrale -->
+    <div class="titleSectionCarrozzeria">
+        <h2>Cabina incidentata? <span class="textLightBlue">Ci pensiamo noi!</span></h2>
+    </div>
+    <div class="contSectionCarrozzeria">
+        <div class="container contColumn">
+            <div class="containerLineBig">
+                <div class="container containerLine">
+                    <div class="row rowMidIcons">
+                        <div class="col-xs-12 col-sm-12 col-lg-2 text-center callIconMid">
+                            <img src="Images/icona_centrale1.png" alt="logo" class="iconaMid">
+                            <div class="box box1" id="box1"></div>
+                            <div class="line"></div>
+                            <div class="sectionNumbMid sectionNumbMid1">1</div>
+                            <div class="textDarkBlue textDarkBlue1">Ci chiami</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 text-center">
+                            <img src="Images/icona_centrale2.png" alt="logo" class="iconaMid iconaMid2">
+                            <div class="box box2" id="box2"></div>
+                            <div class="line"></div>
+                            <div class="sectionNumbMid sectionNumbMid2">2</div>
+                            <div class="textDarkBlue textDarkBlue2">La veniamo a prendere</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-lg-2 text-center">
+                            <img src="Images/icona_centrale3.png" alt="logo" class="iconaMid">
+                            <div class="box box3" id="box2"></div>
+                            <div class="line"></div>
+                            <div class="sectionNumbMid sectionNumbMid3">3</div>
+                            <div class="textDarkBlue textDarkBlue3">La ripariamo</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-lg-2 text-center">
+                            <img src="Images/icona_centrale4.png" alt="logo" class="iconaMid iconaMid4">
+                            <div class="box box4" id="box2"></div>
+                            <div class="sectionNumbMid sectionNumbMid4">4</div>
+                            <div class="textDarkBlue textDarkBlue3">Te la riportiamo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Main Sezione Inferiore -->
+    <div class="titleSectionCarrozzeria2" id="lavoraconnoi">
+        <h2>CabSpecialist, la carrozzeria senza andare in carrozzeria</h2>
+    </div>
+    <div class="contSectionCarrozzeria2">
+        <div class="container">
+            <div class="row rowLowIcon">
+                <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+                    <img src="Images/icona_inferiore.png" alt="logo" class="iconaLow">
+                    <div class="sectionLow">Hai un'officina meccanica? <span class="workWithUs">Lavora con noi!</span></div>
+                    <div class="textLow">Con il nostro aiuto puoi offrire il servizio <br />di carrozzeria ai tuoi clienti.</div>
+                    <a href="mailto:info@example.test"><p class="contactUs">Contattaci!</p></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12 fastService">
+                    <img src="Images/icona_fastService.png" alt="logo" class="iconaFast">
+                    <p class="fastServiceTxt">SERVIZIO VELOCE!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+    <div id="FooterContainer"></div>
+</body>
+</html>
