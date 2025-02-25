@@ -24,8 +24,8 @@
     </script>
     <script>
 window.addEventListener('load', function() {
-    const nav = document.querySelector('.navbar')
-    const logo = document.querySelector('.navbar-brand');
+    const nav = document.querySelector('#HeaderContainer');
+    const logo = document.querySelector('.logo');
     const navLinks = document.querySelectorAll('.navlink, .numberDiv');
     const currentPath = window.location.pathname;
 
@@ -34,7 +34,7 @@ window.addEventListener('load', function() {
             link.style.display = "none";  
         });
         logo.style.display = "block";
-        logo.style.paddingBottom = "60px";
+        nav.style.paddingBottom = "20px";
     }
 });
 </script>
