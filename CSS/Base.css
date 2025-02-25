@@ -1394,6 +1394,8 @@ footer svg {
     .titleSection1 h2 {
         font-size: 2.2rem;
         padding-bottom: 30px !important;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .iconaTop {
@@ -1414,10 +1416,17 @@ footer svg {
         padding-bottom: 30px;
     }
 
+    .titleSection2 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .titleSection2 h2 {
         font-size: 25px;
         padding-top: 225px;
         width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .iconaLow {
@@ -1471,6 +1480,17 @@ footer svg {
         padding-bottom: 10px;
         padding-top: 20px;
     }
+
+    .textLightBlue {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .sectionLow, .textLow {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -1505,10 +1525,27 @@ footer svg {
         border-top-right-radius: 40px;
         border-top-left-radius: 40px;
     }
+}
 
-    .titleSection1 h2 {
-        padding-left: 45px;
-        padding-right: 45px;
+@media screen and (max-width: 365.9px) {
+    .titleSection2 h2 {
+        font-size: 21px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 353px) {
+    .sectionLow, .textLow {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media screen and (max-width: 333px) {
+    .sectionLow, .textLow {
+        font-size: 1.5rem;
     }
 }
 
@@ -1527,15 +1564,9 @@ footer svg {
         padding-left: 10px;
     }
 
-    .titleSection1 h2 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     .titleSection2 h2 {
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 25px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 }
 
@@ -2281,10 +2312,16 @@ footer svg {
 }
 
 @media screen and (max-width: 425.9px) {
+    .titleSectionCarrozzeria h2 {
+        font-size: 2.5rem;
+    }
+
     .titleSectionCarrozzeria2 h2 {
         font-size: 25px;
         margin-bottom: 30px;
         padding-top: 220px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .textDarkBlue3, .textDarkBlue {
@@ -2309,10 +2346,13 @@ footer svg {
         padding-left: 40px;
         padding-right: 40px;
     }
+}
 
+@media screen and (max-width: 365.9px) {
     .titleSectionCarrozzeria2 h2 {
-        padding-left: 30px;
-        padding-right: 30px;
+        font-size: 21px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -2329,13 +2369,11 @@ footer svg {
     .titleSectionCarrozzeria h2 {
         padding-left: 25px;
         padding-right: 25px;
-        font-size: 2.9rem;
     }
 
     .titleSectionCarrozzeria2 h2 {
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 25px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 }
 

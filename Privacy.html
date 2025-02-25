@@ -24,6 +24,7 @@
     </script>
     <script>
 window.addEventListener('load', function() {
+    const nav = document.querySelector('.navbar')
     const logo = document.querySelector('.navbar-brand');
     const navLinks = document.querySelectorAll('.navlink, .numberDiv');
     const currentPath = window.location.pathname;
@@ -34,6 +35,7 @@ window.addEventListener('load', function() {
         });
         logo.style.display = "block";
         logo.style.paddingBottom = "65px";
+        nav.style.paddingBottom = "10px";
     }
 });
 </script>
