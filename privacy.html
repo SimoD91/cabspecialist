@@ -13,7 +13,7 @@
     <title>CabSpecialist - Privacy</title>
     <link rel="icon" type="image/x-icon" href="./Images/icona_index2.png">
     <style>
-        .navbar .navlink, .navbar .numberDiv, .navbar-toggle {
+        .navbar .linkWork, .navbar .linkContact, .navbar .numberDiv {
             display: none;
         }
     </style>
@@ -22,21 +22,6 @@
             CaricaMasterPage();
         });
     </script>
-    <script>
-window.addEventListener('load', function() {
-    const logo = document.querySelector('.logo');
-    const navLinks = document.querySelectorAll('.navlink, .numberDiv');
-    const currentPath = window.location.pathname;
-
-    if (currentPath.includes("privacy.html")) {
-        navLinks.forEach(link => {
-            link.style.display = "none";  
-        });
-        logo.style.display = "block";
-        logo.style.width = "50%";
-    }
-});
-</script>
 </head>
 <body>
 
