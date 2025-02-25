@@ -1,16 +1,16 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="CabSpecialist - Servizi di carrozzeria a distanza"/>
+    <meta name="description" content="CabSpecialist - Servizi di carrozzeria a distanza" />
     <link href="CSS/bootstrap.min.css" rel="stylesheet" />
     <link href="CSS/bootstrap-toggle.min.css" rel="stylesheet" />
     <link href="CSS/Base.css" rel="stylesheet" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/GestioneMasterPage.js"></script>
-    <title>CabSpecialist</title>
+    <title>CabSpecialist - Carrozzeria</title>
     <link rel="icon" type="image/x-icon" href="./Images/icona_index2.png">
     <script>
         var _cookieConsent = {
@@ -76,64 +76,69 @@
 <!-- Header -->
     <div id="HeaderContainer"></div>
 
-<!-- Main Hero (Video) -->
-    <div class="container contVideo">
-        <div class="row">
-            <div class="col-12">
-                <div>
-                    <video class="scale" src="Videos/Visual_Home_mov.mov" type="video/mp4" width="100%" autoplay loop muted></video>
-                </div>
+<!-- Main Hero -->
+    <div class="container" style="width:100%; padding:0">
+        <div class="contHero" style="width:100%;">
+            <div class="text-block2">
+                <h1>Ripara<br />la cabina<br />senza andare<br />dal carrozziere</h1>
             </div>
         </div>
     </div>
 
-<!-- Main Sezione Superiore -->
-    <div class="titleSection1 topTitleSection1">
-        <h2>Cerchi un pezzo verniciato? <span class="textLightBlue">Ci pensiamo noi!</span></h2>
+<!-- Main Sezione Centrale -->
+    <div class="titleSectionCarrozzeria">
+        <h2>Cabina incidentata? <span class="textLightBlue">Ci pensiamo noi!</span></h2>
     </div>
-    <div class="contSection1">
-        <div class="container">
-            <div class="row rowTopIcons">
-                <div class="col-xs-12 col-sm-12 col-lg-2 text-center iconDiv">
-                    <img src="Images/icona_index1.png" alt="logo" class="iconaTop">
-                        <div class="sectionNumb">1</div>
-                        <div class="textBlue textBlueN1">Ci comunichi il pezzo<br /> e il numero di telaio</div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-lg-2 text-center borderDiv">
-                    <div class="borderBox"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-lg-2 text-center iconDiv">
-                    <img src="Images/icona_index2.png" alt="logo" class="iconaTop">
-                    <div class="sectionNumb">2</div>
-                    <div class="textBlue">Lo verniciamo</div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-lg-2 text-center borderDiv">
-                    <div class="borderBox"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-lg-2 text-center iconDiv">
-                    <img src="Images/icona_index3.png" alt="logo" class="iconaTop">
-                    <div class="sectionNumb">3</div>
-                    <div class="textBlue">Te lo spediamo</div>
+    <div class="contSectionCarrozzeria">
+        <div class="container contColumn">
+            <div class="containerLineBig">
+                <div class="container containerLine">
+                    <div class="row rowMidIcons">
+                        <div class="col-xs-12 col-sm-12 col-lg-2 text-center callIconMid">
+                            <img src="Images/icona_centrale1.png" alt="logo" class="iconaMid">
+                            <div class="box box1" id="box1"></div>
+                            <div class="line"></div>
+                            <div class="sectionNumbMid sectionNumbMid1">1</div>
+                            <div class="textDarkBlue textDarkBlue1">Ci chiami</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 text-center">
+                            <img src="Images/icona_centrale2.png" alt="logo" class="iconaMid iconaMid2">
+                            <div class="box box2" id="box2"></div>
+                            <div class="line"></div>
+                            <div class="sectionNumbMid sectionNumbMid2">2</div>
+                            <div class="textDarkBlue textDarkBlue2">La veniamo a prendere</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-lg-2 text-center">
+                            <img src="Images/icona_centrale3.png" alt="logo" class="iconaMid">
+                            <div class="box box3" id="box2"></div>
+                            <div class="line"></div>
+                            <div class="sectionNumbMid sectionNumbMid3">3</div>
+                            <div class="textDarkBlue textDarkBlue3">La ripariamo</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-lg-2 text-center">
+                            <img src="Images/icona_centrale4.png" alt="logo" class="iconaMid iconaMid4">
+                            <div class="box box4" id="box2"></div>
+                            <div class="sectionNumbMid sectionNumbMid4">4</div>
+                            <div class="textDarkBlue textDarkBlue3">Te la riportiamo</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="titleSection1 downTitleSection1">
-            <h2>Semplice! Fotografa, ordina e ricevi verniciato</h2>
         </div>
     </div>
 
 <!-- Main Sezione Inferiore -->
-    <div class="titleSection2" id="lavoraconnoi">
+    <div class="titleSectionCarrozzeria2" id="lavoraconnoi">
         <h2>CabSpecialist, la carrozzeria senza andare in carrozzeria</h2>
     </div>
-    <div class="contSection3">
+    <div class="contSectionCarrozzeria2">
         <div class="container">
             <div class="row rowLowIcon">
                 <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
                     <img src="Images/icona_inferiore.png" alt="logo" class="iconaLow">
-                        <div class="sectionLow">Hai un'officina meccanica? <span class="workWithUs">Lavora con noi!</span></div>
-                        <div class="textLow">Con il nostro aiuto puoi offrire il servizio <br/>di carrozzeria ai tuoi clienti.</div>
-                        <a href="mailto:info@example.test"><p class="contactUs">Contattaci!</p></a>
+                    <div class="sectionLow">Hai un'officina meccanica? <span class="workWithUs">Lavora con noi!</span></div>
+                    <div class="textLow">Con il nostro aiuto puoi offrire il servizio <br />di carrozzeria ai tuoi clienti.</div>
+                    <a href="mailto:info@example.test"><p class="contactUs">Contattaci!</p></a>
                 </div>
             </div>
             <div class="row">
@@ -142,10 +147,10 @@
                     <p class="fastServiceTxt">SERVIZIO VELOCE!</p>
                 </div>
             </div>
-         </div>
+        </div>
     </div>
 
 <!-- Footer -->
-     <div id="FooterContainer"></div>
+    <div id="FooterContainer"></div>
 </body>
 </html>
