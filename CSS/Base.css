@@ -1493,6 +1493,10 @@ footer svg {
         display: flex;
         flex-direction: column;
     }
+
+    .contVideo video {
+        border-bottom: 1px solid white;
+    }
 }
 
 @media screen and (max-width: 409px) {
