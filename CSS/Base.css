@@ -1500,6 +1500,10 @@ footer svg {
         box-shadow: none !important;
         -webkit-mask-image: linear-gradient(black, black);
     }
+
+    #lavoraconnoi {
+        scroll-margin-top: 10px;
+}
 }
 
 @media screen and (max-width: 409px) {
@@ -1540,10 +1544,6 @@ footer svg {
         border-top-right-radius: 40px;
         border-top-left-radius: 40px;
     }
-
-    #lavoraconnoi {
-        scroll-margin-top: -110px;
-}
 }
 
 @media screen and (max-width: 365.9px) {
